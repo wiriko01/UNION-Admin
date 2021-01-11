@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:text="SELAMAT DATANG,\nADMIN"
+        android:textSize="22dip"
+        android:layout_marginTop = "20dip"
+        android:layout_marginLeft="25dip"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:layout_below="@+id/heading"
+        android:text="DD:MM:YY hh:mm:ss"
+        android:layout_marginTop = "5dip"
+        android:layout_marginLeft="25dip"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pilihan"
+        android:layout_below="@+id/date"
+        android:text="PILIHAN AKSI"
+        android:textSize="22dip"
+        android:textStyle="bold"
+        android:layout_marginTop = "55dip"
+        android:layout_marginLeft="25dip"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/verifikasi"
+        android:layout_below="@+id/pilihan"
+        android:text="VERFIKASI VENDOR"
+        android:textSize="22dip"
+        android:textColor="@color/white"
+        android:layout_marginTop = "5dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="25dip"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:background="@color/F5497D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kerja"
+        android:layout_below="@+id/verifikasi"
+        android:text="LAPORAN KERJA"
+        android:textSize="22dip"
+        android:textColor="@color/white"
+        android:layout_marginTop = "5dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="25dip"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:background="@color/F5497D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/masalah"
+        android:layout_below="@+id/kerja"
+        android:text="LAPORAN MASALAH"
+        android:textSize="22dip"
+        android:textColor="@color/white"
+        android:layout_marginTop = "5dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="25dip"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:background="@color/F5497D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile"
+        android:layout_below="@+id/masalah"
+        android:text="PROFILE"
+        android:textSize="22dip"
+        android:textColor="@color/white"
+        android:layout_marginTop = "5dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="25dip"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:background="@color/F5497D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_below="@+id/profile"
+        android:text="LOGOUT"
+        android:textSize="22dip"
+        android:textColor="@color/white"
+        android:layout_marginTop = "5dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="25dip"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:background="@color/F5497D"
+        />
+
+</RelativeLayout>

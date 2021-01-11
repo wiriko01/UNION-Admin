@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:stretchColumns="*">
+
+    <RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc_vector_test"
+            android:contentDescription="TODO"
+            android:layout_marginTop = "15dip"
+            android:layout_marginLeft="10dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading"
+            android:text="Laporan Kerja"
+            android:textSize="22dip"
+            android:layout_marginTop = "20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_toRightOf="@+id/back_button"
+            />
+
+        <ImageButton
+            android:id="@+id/print_button"
+            android:layout_toRightOf="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_print"
+            android:contentDescription="TODO"
+            android:layout_marginTop = "15dip"
+            android:layout_marginLeft="145dip"
+            tools:ignore="VectorDrawableCompat"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ket"
+        android:text="Active User and Vendor Today"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="15dip"
+        />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/today"
+            android:text="Today\nTotal User : 100\nTotal Vendor : 100"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border_2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/month"
+            android:text="This Month\nTotal User : 100\nTotal Vendor : 100"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border_2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year"
+            android:text="This Year\nTotal User : 100\nTotal Vendor : 100"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border_2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            />
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transaksi"
+        android:text="Transaksi Hari ini"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="4dip"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_transaksi"
+        android:text="Total : Rp."
+        android:layout_marginTop="10dip"
+        android:paddingBottom="20dip"
+        android:background="@drawable/border_bottom"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chart"
+        android:text="Chart"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="4dip"
+        android:textStyle="bold"
+        android:textSize="22dip"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:id="@+id/img1"
+        android:layout_marginTop="10dip"
+        android:textStyle="bold"
+        android:textSize="22dip"
+        android:paddingBottom="20dip"
+        android:background="@drawable/border_bottom"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/laporan_masalah"
+        android:text="Laporan Masalah"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="4dip"
+        android:textStyle="bold"
+        android:textSize="22dip"
+        android:textColor="@color/black"
+        />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/today_masalah"
+            android:text="Today\nTotal User : 100\nTotal Vendor : 100"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border_2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/month_masalah"
+            android:text="This Month\nTotal User : 100\nTotal Vendor : 100"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border_2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year_masalah"
+            android:text="This Year\nTotal User : 100\nTotal Vendor : 100"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border_2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            />
+
+    </TableRow>
+
+</TableLayout>
